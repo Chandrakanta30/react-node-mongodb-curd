@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = 'http://localhost:4000/'
+const baseUrl = 'http://18.221.154.13:4000/'
 
 export default {
     postMessage(url = baseUrl + 'postmessages/') {
